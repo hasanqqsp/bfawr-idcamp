@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+.app_header {
+    max-height: 40px;
+    background-color: aqua;
+}
+
+.app_footer {
+    max-height: 32px;
+}
+
+.app_main {
+    min-height: calc(100vh -  72px);
+}
+
+.search_input {
+    
+    border-top-left-radius: 1.2rem;
+    border-bottom-left-radius: 1.2rem;
+    padding-left: 1rem;
+
+}
+
+.search_icon {
+    border-top-right-radius: 1.2rem;
+    border-bottom-right-radius: 1.2rem;
+    padding-right: 1rem;
+}
+
+.rdw-editor-main {
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.rdw-editor-toolbar {
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+}
